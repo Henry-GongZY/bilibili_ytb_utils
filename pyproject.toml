@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "bilibili-ytb-utils"
+version = "0.0.1"
+description = "A project to manage videos on youtube and bilibili at one place."
+authors = ["Henry-GongZY <watershell@qq.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "bilibili_ytb_utils"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
